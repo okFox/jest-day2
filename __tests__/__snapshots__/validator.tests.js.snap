@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Validator all fields required returns the field 1`] = `"age is required"`;
