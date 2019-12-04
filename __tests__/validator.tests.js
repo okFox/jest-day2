@@ -72,7 +72,7 @@ describe('Validator', () => {
         weight: '20 lbs'
       };
       
-      expect(() => validator.validate(cat)).toBeNull();
+      expect(validator.validate(cat)).toBeNull();
     });
   });
 
